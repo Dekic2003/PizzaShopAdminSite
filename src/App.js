@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
-function App() {
+
+import Root from "./views/Root";
+
+
+export default function App() {
   return (
-    <div className="App">
-
-    </div>
+   <Root/>
   );
 }
 
-export default App;
